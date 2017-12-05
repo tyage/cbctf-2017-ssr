@@ -1,0 +1,47 @@
+{
+  "name": "cbctf-2017-ssr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/server.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp",
+    "watch": "gulp watch",
+    "start": "node build/server.js",
+    "dev": "nodemon --watch build build/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyage/cbctf-2017-ssr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tyage/cbctf-2017-ssr/issues"
+  },
+  "homepage": "https://github.com/tyage/cbctf-2017-ssr#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "react": "^15.6.1",
+    "react-cookie": "^2.1.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "universal-cookie-express": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.2",
+    "gulp-plumber": "^1.1.0",
+    "nodemon": "^1.12.0",
+    "webpack": "^2.7.0",
+    "webpack-stream": "^4.0.0"
+  }
+}
